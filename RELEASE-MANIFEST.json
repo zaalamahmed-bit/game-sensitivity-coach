@@ -1,0 +1,218 @@
+{
+  "schema": "game-sensitivity/release-manifest-v1",
+  "name": "game-sensitivity-coach",
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": ".github/workflows/tests.yml",
+      "bytes": 561,
+      "sha256": "a08d877cf1002d0770fdf72ce94fa0fe536b1616d1ea323979b5ace905981307"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 230,
+      "sha256": "0ffca3b7fe0b50e5e3c530fa7ac7216f558887c6a0fa5cb675e405d8df15592e"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 872,
+      "sha256": "19767aebd9862aa4415babf6cdb84ff8f57439e49f3fc8b3385e27b416bd6b16"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2224,
+      "sha256": "584b3172da06baa2ab554fcb9794197ca98be97268de37ea7d772a9788a6f11c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1071,
+      "sha256": "e741683284c4161a8a319d4bdf20d315994ccf6a53fe77f9121081506e0e1e4c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14749,
+      "sha256": "d396e56eb49adc12d6c1beab7f1b9d601909ddfe99107014d8466354a7d35285"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1036,
+      "sha256": "73a5327d8e0b630765d498f7cc73eb9fa10737749dc254b9a229042e956ac9a3"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 8938,
+      "sha256": "6489be7d883ef8d8885126aaccfa5906954f70c99f5ce6bc86d5bf817af5ee23"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 284,
+      "sha256": "9afe6b9739ba9a5beaf0ef57dff6417f54fa30be59686e978aab38ee5c99e955"
+    },
+    {
+      "path": "assets/gameplay-review.png",
+      "bytes": 321008,
+      "sha256": "5510ffc742bffda3b17966e45435990fa494d8c13fb8da7fbb7d3efc3427e560"
+    },
+    {
+      "path": "examples/conversion.synthetic.json",
+      "bytes": 667,
+      "sha256": "4de117302598822fe5b6ac944941bbbeed03a39cd7d19fbdfd357c0879de479e"
+    },
+    {
+      "path": "examples/profile.example.json",
+      "bytes": 648,
+      "sha256": "6a1d872c1bf1370c0242fa841daf3979fa68bd734007522921b7f0cc31b2e514"
+    },
+    {
+      "path": "references/apply-and-rollback.md",
+      "bytes": 6935,
+      "sha256": "e9b7b5af14cf8ecee6ec9b4bd40eab22b9a03b7fac243e5c9bdbad9ead5eab2a"
+    },
+    {
+      "path": "references/conversion.md",
+      "bytes": 4011,
+      "sha256": "9d398a22e47600fa44277a66ef1f3e19cd138680d21a24773e36d4ee4ba5e9a9"
+    },
+    {
+      "path": "references/data-contracts.md",
+      "bytes": 5431,
+      "sha256": "7d79b787da6c297ac691d225fe4af50633a47290bfb687e7cb43109ecd8ae609"
+    },
+    {
+      "path": "references/game-examples.md",
+      "bytes": 5674,
+      "sha256": "466aedd448e8cbca96e5427e99bab452fb6b2e8ca2df089a3d44822f8bb0d403"
+    },
+    {
+      "path": "references/observation.md",
+      "bytes": 7418,
+      "sha256": "865e58ed0962280183224d68e32e0f7c2dc8ef4222bf9a1697ec0166be8eef5b"
+    },
+    {
+      "path": "references/settings-discovery.md",
+      "bytes": 3618,
+      "sha256": "e3e3c5ea895b6dcf0f17bddc8a74bfc91e157447b023cf73b16fd703b77c33ce"
+    },
+    {
+      "path": "scripts/aim_observer/__init__.py",
+      "bytes": 86,
+      "sha256": "733d4646213300dc37093b1540ba7de215155e6510e81bdbc7da4754f90b4b0f"
+    },
+    {
+      "path": "scripts/aim_observer/capture.py",
+      "bytes": 10863,
+      "sha256": "c86e1920a14b62b6bb32aa5f7047895cc5d29ffcd4fc92dfc93d3e6519b7d9c6"
+    },
+    {
+      "path": "scripts/aim_observer/profiles.py",
+      "bytes": 2844,
+      "sha256": "e4c64dc4899caf2f61d12c045f4abc926706521b92099cbf60222b6ee8f0cf07"
+    },
+    {
+      "path": "scripts/aim_observer/raw_input.py",
+      "bytes": 15542,
+      "sha256": "383382cdfe1509965307821cfdc9dac361c4192d42718500efa697d3e0660466"
+    },
+    {
+      "path": "scripts/aim_observer/recorder.py",
+      "bytes": 12870,
+      "sha256": "5f960fecc131f43aa8fccd252e2c8add3ac3fe8a815b6fb3193c771980ededae"
+    },
+    {
+      "path": "scripts/aim_observer/review.py",
+      "bytes": 24449,
+      "sha256": "e1c788eb4c90343d2d90888b1b37d11bde11d2217d6f7a8ee777795a13ee56d8"
+    },
+    {
+      "path": "scripts/aim_observer/review_template.html",
+      "bytes": 43190,
+      "sha256": "37b32fd3fcbe455e43f8d5d6cb794ab3e9fa72433696eb8d44d97e27f222aeef"
+    },
+    {
+      "path": "scripts/capture_gameplay.py",
+      "bytes": 15658,
+      "sha256": "785c106750c108632096975f8dbb69bcf510a4ba8b76b390e4e17a909e51991f"
+    },
+    {
+      "path": "scripts/convert_sensitivity.py",
+      "bytes": 7036,
+      "sha256": "cc5a77438c0bf043e18500006954b8d8ab631ab1d845be36018947e60857b802"
+    },
+    {
+      "path": "scripts/discover_settings.py",
+      "bytes": 5405,
+      "sha256": "59e23ede29b026c10943276f7024699b4df97d6361ca30116f4bc86d5bf2785a"
+    },
+    {
+      "path": "scripts/export_evidence.py",
+      "bytes": 17495,
+      "sha256": "6a6cb87315adab555315f7805cb8db220ad24535951286f7efc95012504cbc56"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "bytes": 5990,
+      "sha256": "2301275facfeef3ea5acd880dff8317e6b5d037d997850eccb858d2c8e7c9132"
+    },
+    {
+      "path": "scripts/review_session.py",
+      "bytes": 5128,
+      "sha256": "01183cb7372f51427ad42d3711e1e679a631bd934ca3c081d55b614729ae5bc4"
+    },
+    {
+      "path": "scripts/settings_file.py",
+      "bytes": 31753,
+      "sha256": "6186fdb1e282f8c956fc26dedddbc37b4deafca3c6cb74337043f1324654d2ac"
+    },
+    {
+      "path": "tests/test_capture.py",
+      "bytes": 2011,
+      "sha256": "f6b25188e157e42738180ebc483353e0f4e5b4142c994ddaff62a374ecab41cc"
+    },
+    {
+      "path": "tests/test_capture_runtime.py",
+      "bytes": 11961,
+      "sha256": "92f484f8436d028d86b7416ca4b5ec4dcf68c6e311daa2a92ea57340400c2ad9"
+    },
+    {
+      "path": "tests/test_convert_sensitivity.py",
+      "bytes": 3427,
+      "sha256": "e2e9a4cf4fc97614271c6210bf8aebac289372d6330e4f9b68f88bc408226399"
+    },
+    {
+      "path": "tests/test_discover_settings.py",
+      "bytes": 1104,
+      "sha256": "2444d69bca20bac388d84a3e3ea7804287096af0b531bd3f467da61a8c9b9b33"
+    },
+    {
+      "path": "tests/test_export_evidence.py",
+      "bytes": 12672,
+      "sha256": "e56904f8a6ee0e9564cde1ebedbe8cf6465cd6cafe0001a9f48ac7dc161495cb"
+    },
+    {
+      "path": "tests/test_package_release.py",
+      "bytes": 2853,
+      "sha256": "d6b83a0890dde239e3ca5c406c123d33ab40bc12752deeb38fa095db4d102b6b"
+    },
+    {
+      "path": "tests/test_raw_input.py",
+      "bytes": 10774,
+      "sha256": "0bcf7b2b82457bc9f591192c55d51214200372f74b6c535af1772f08bacaad45"
+    },
+    {
+      "path": "tests/test_recorder.py",
+      "bytes": 15196,
+      "sha256": "78cfa5180b17002004dc6b29f6f63ddac3c03050e0b78191a678494bdd1ef8e3"
+    },
+    {
+      "path": "tests/test_review.py",
+      "bytes": 29578,
+      "sha256": "d05e59be09236f0e7e1217376d1c7bd639d712083455b42829500dfccf419d66"
+    },
+    {
+      "path": "tests/test_settings_file.py",
+      "bytes": 25861,
+      "sha256": "7b93251b79c86152212821d5812185e2e9bbc0a0b45a294f48596a7d7b7136bf"
+    }
+  ],
+  "note": "This manifest lists every archive file except itself. No runtime sessions or real game configurations are included."
+}

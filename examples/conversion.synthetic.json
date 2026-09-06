@@ -1,0 +1,26 @@
+{
+  "schema": "game-sensitivity/conversion-request-v1",
+  "mode": "turn_distance",
+  "source": {
+    "game": "Synthetic A",
+    "value": 10,
+    "dpi": 800,
+    "calibration": {
+      "model": "affine", "slope": 0.001, "offset": 0,
+      "min": 0, "max": 100,
+      "source": "Synthetic fixture only; not a real game calibration",
+      "evidence": "measured"
+    }
+  },
+  "target": {
+    "game": "Synthetic B",
+    "dpi": 800,
+    "calibration": {
+      "model": "affine", "slope": 0.002, "offset": 0,
+      "min": 0, "max": 100,
+      "source": "Synthetic fixture only; not a real game calibration",
+      "evidence": "measured"
+    }
+  },
+  "target_decimals": 6
+}

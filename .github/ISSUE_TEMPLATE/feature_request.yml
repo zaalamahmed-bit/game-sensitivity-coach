@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a workflow improvement, game adapter, or documentation change.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the use case and available evidence. Keep private gameplay, configurations, account details, and credentials out of this public issue.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What are you trying to do, and what currently gets in the way?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the change and how it would help. Mention alternatives you considered.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Relevant game, platform, or format
+      description: Optional. Include game/version, platform, public documentation links, or a synthetic format example. Clearly label unverified assumptions; do not attach real saves or private configurations.
+  - type: textarea
+    id: validation
+    attributes:
+      label: How could this be verified?
+      description: Optional. Describe an observable outcome or a synthetic example. Separate tool correctness from any claim about gameplay improvement.

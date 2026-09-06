@@ -1,0 +1,4 @@
+interface:
+  display_name: "Game Sensitivity Coach"
+  short_description: "Observe aim, transfer sensitivity, and tune with evidence"
+  default_prompt: "Use $game-sensitivity-coach to discover my game settings, review my gameplay, and recommend a sensitivity with traceable evidence."

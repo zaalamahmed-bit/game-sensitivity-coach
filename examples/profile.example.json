@@ -1,0 +1,21 @@
+{
+  "schema": "game-sensitivity/profile-v1",
+  "version": 1,
+  "game": "Example Game",
+  "window_title": "Example Game",
+  "settings": {
+    "dpi": null,
+    "look_sensitivity": null,
+    "normal_zoom_multiplier": null,
+    "scoped_multiplier": null
+  },
+  "settings_source": "Example structure only; the agent discovers and fills actual values.",
+  "setting_sources": {
+    "dpi": {"status": "unknown"},
+    "look_sensitivity": {"status": "unknown"},
+    "normal_zoom_multiplier": {"status": "unknown"},
+    "scoped_multiplier": {"status": "unknown"}
+  },
+  "context": {"config_sources": [], "optics": [], "calibration": null},
+  "evidence": []
+}
